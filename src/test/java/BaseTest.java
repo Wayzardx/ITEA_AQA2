@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BaseTest {
     protected WebDriver driver;
-
     @BeforeEach
     public void setUp() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\WAYZARD\\IdeaProjects\\ITEA_AQA2\\src\\main\\resources\\ChromeWebDriver\\chromedriver_win32\\chromedriver.exe");
