@@ -21,6 +21,5 @@ public class LoginPage extends BasePage {
         passwordField.sendKeys(password);
         loginBtn.click();
         return new MainPage(driver);
-
     }
 }

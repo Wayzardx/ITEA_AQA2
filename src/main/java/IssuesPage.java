@@ -17,7 +17,6 @@ public class IssuesPage extends BasePage {
         newIssueBtn.click();
         Thread.sleep(2500);
     }
-
     public void newIssuesNameField(String text) throws InterruptedException {
         WebElement newIssuesNameField = driver.findElement(By.xpath("//*[@id=\"issue_title\"]"));
         webDriverWait = new WebDriverWait(driver, Duration.ofMillis(5000));

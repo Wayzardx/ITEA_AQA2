@@ -9,7 +9,6 @@ public class HomePage extends BasePage {
     public HomePage(WebDriver driver) {
         super(driver);
     }
-
     public LoginPage goToLoginPage() throws InterruptedException {
         signInButton.click();
         Thread.sleep(2500);

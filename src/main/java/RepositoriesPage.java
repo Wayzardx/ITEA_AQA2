@@ -3,7 +3,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class RepositoriesPage extends BasePage {
-
     public WebElement issuesBtn = driver.findElement(By.xpath("//a[@id=\"issues-tab\"]"));
 
     public RepositoriesPage(WebDriver driver) {
